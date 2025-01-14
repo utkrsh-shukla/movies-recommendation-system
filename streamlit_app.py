@@ -4,6 +4,7 @@ import requests
 import pickle
 import gdown
 
+api_key  =  st.secrets['API_KEY']
 # Direct download link for the Google Drive file
 similarity_file_id = "1dUjDsAuvVfn0-QVXiYdo5QeaOXF185EX"
 gdown.download(f"https://drive.google.com/uc?export=download&id={similarity_file_id}", "similarity.pkl", quiet=False)
@@ -16,7 +17,7 @@ with open("similarity.pkl", "rb") as file:
     similarity = pickle.load(file)
 
 def fetch_poster(movies_id):
-    response = requests.get(f'https://api.themoviedb.org/3/movie/{movies_id}?api_key=9a3ed2cf5715ab95da5d585962ac9329')
+    response = requests.get(f'https://api.themoviedb.org/3/movie/{movies_id}?api_key={api_key}')
     data = response.json()
     return f'https://image.tmdb.org/t/p/original/{data["poster_path"]}'
 
