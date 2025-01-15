@@ -5,7 +5,7 @@ Welcome to the **Movie Recommender System**, an ML-powered web application that 
 
 **Web App Link**: [Movie Recommender System](https://content-based-movies-recommendation.onrender.com/)
 
-**Kaggle Notebook Link**: [CONTENT BASED MOVIE RECOMMENDATION SYSTEM](https://www.kaggle.com/code/utkarshshkla/content-based-movie-recommendation-system)
+**Kaggle Notebook Link**: [Kaggle Demonstration](https://www.kaggle.com/code/utkarshshkla/content-based-movie-recommendation-system)
 
 ---
 
