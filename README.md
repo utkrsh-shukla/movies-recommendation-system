@@ -27,7 +27,7 @@ Welcome to the **Movie Recommender System**, an ML-powered web application that 
 This project primarily employs **content-based filtering** to recommend movies by analyzing the metadata of films. Below are the steps followed:
 
 ### **1. Data Collection and Loading**
-- **Datasets Used**: `tmdb_5000_movies.csv` and `tmdb_5000_credits.csv`
+- **Datasets Used**: [TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) having`tmdb_5000_movies.csv` and `tmdb_5000_credits.csv`
 - Loaded using **Pandas** to create DataFrames for easy manipulation and analysis.
 
 ### **2. Preprocessing**
